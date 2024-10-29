@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/style.css" />
+    <title>Kenneths kassa filmbklubb</title>
+  </head>
+  <body class="brand-color">
+    <header>
+      <div class="d-flex align-items-center justify-content-between w-100">
+        <div class="d-flex align-items-center px-2">
+          <a href="/index.html">
+            <img
+              id="brand-logo"
+              src="/Assets/img/Brand logo.png"
+              alt="Brand-logo"
+            />
+          </a>
+          <ul
+            class="d-flex align-items-center list-unstyled gap-4 font-luckiest-guy-regular list m-0 ms-3 fs-5 d-none d-lg-flex"
+          >
+            <li>Ingen vass film</li>
+            <li>Inget sovande</li>
+            <li>Inget urträde</li>
+          </ul>
+        </div>
+
+        <nav>
+          <ul
+            class="font-roboto-regular d-flex align-items-center gap-4 list-unstyled m-3 mt-3"
+          >
+            <li>
+              <a
+                href="/index.html"
+                class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"
+                >Hem</a
+              >
+            </li>
+
+            <li>
+              <a
+                id="link"
+                href="/medlemmar.html"
+                class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"
+                >Medlemmar</a
+              >
+            </li>
+            <li>
+              <a
+                href="/filmgodis.html"
+                class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"
+                >Filmgodis</a
+              >
+            </li>
+            <li>
+              <a
+                href="/arkiv.html"
+                class="link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"
+                >Arkiv</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="container">
+      <img
+        src="/Assets/img/KKF front page.png"
+        alt="Biostolar samt bioduk med klubbens medlemmar på filmduken"
+        class="img-fluid"
+      />
+    </section>
+
+    <main>
+      <div class="custom-container mt-5">
+        <h1 class="font-luckiest-guy-regular">Vilka är vi?</h1>
+        <p class="mb-5 fs-5 font-roboto-regular">
+          Kenneths Kassa Filmklubb startades 2020 av vår grundare Kenneth, som
+          ville skapa ett forum för att titta på "läskiga" skräckfilmer och
+          samtidigt få en ursäkt att äta godis och dricka cola. Klubben har en
+          tydlig slogan:
+          <strong>"Ingen vass film, inget sovande, inget urträde"</strong> - att
+          lämna klubben är alltså inte ett alternativ. Att bli medlem är i stort
+          sett omöjligt, och även om vi ibland har bjudit in gästmedlemmar har
+          de sällan varit av rätta virket. Här ser vi inte på Oscarsnominerade
+          filmer eller episka draman. Istället är det kassa actionscener, roliga
+          kostymer och överdrivet mycket blod som lockar oss
+        </p>
+
+        <h2>På gång</h2>
+        <ul class="mb-5 font-roboto-regular fs-5">
+          <li>Longlegs</li>
+          <li>Troll 2</li>
+        </ul>
+
+        <h3>Filmtips?</h3>
+        <p class="font-roboto-regular fs-5">
+          Vill du ha kassa filmtips direkt i din brevlåda?<br />
+          Signa då upp dig för <strong>Kenneths kassa nyhetsbrev</strong> här
+          nedan.
+        </p>
+        <form>
+          <fieldset>
+            <label for="email" class="font-roboto-regular fs-5">E-post</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="film@filmsson.com"
+              class="form-control"
+            />
+          </fieldset>
+          <div class="d-flex justify-content-start mt-3 mb-4">
+            <button type="submit" class="btn btn-primary me-2">Ge mig!</button>
+            <button type="submit" class="btn btn-danger">Sudda</button>
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer class="p-4 mt-5">
+      <p class="m-0">
+        © 2024 Kennehts kassa filmklubb. Alla rättigheter förbehållna.<br />info@kennehtskassafilmklubb.se
+      </p>
+    </footer>
+  </body>
+</html>
